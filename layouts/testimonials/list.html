@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<!--
+<section class="site-project-header">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-10 offset-lg-2">
+        <div class="site-project-header-content">
+          <h1>
+            {{ .Title | safeHTML }}
+          </h1>
+          <h6>
+            {{ .Params.Subtitle | safeHTML }}
+          </h6>
+         
+        </div>
+        <br>
+     
+      </div>
+      
+    </div>
+  </div>
+</section> 
+-->
+
+{{ partial "testimonial.html" . }}
+
+{{ partial "call-to-action.html" . }}
+
+{{ end }}

@@ -1,0 +1,42 @@
+
+ <!--Service full page partial -->
+{{ with .Site.Data.service }}
+{{ if .enable }}
+<section class="service">
+  <div class="container">
+    <div class="row">
+  
+          <div class="row">
+            <div class="col-12">
+              <div class="section-title">
+                <h2>
+                  {{ .title }}
+                </h2>
+                <p>
+                  {{ .subtitle }}
+                </p>
+              </div>
+            </div>
+
+      {{ range .serviceItem }}
+      <div class="col-lg-12">
+        <div class="service-item" > 
+          <div class="service-item-content text-center">
+            <div class="row">    
+              <div class="service-item-title col-lg-4 col-md-6">    
+              <i class="{{ .icon }}" aria-hidden="true"></i>
+              <h4>  {{ .title }}</h4> 
+              </div>
+              <div class="service-item-text col-lg-8 col-md-6">
+              <p>{{ .description }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

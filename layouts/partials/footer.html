@@ -1,0 +1,50 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+
+      {{ with .Site.Params.footer.contactInfo }}
+      <div class="col-lg-4 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">{{ .title }}</h5>
+          <p class="site-footer-widget-description">
+            {{ .address | safeHTML }}
+            <br>
+            <a href="tel:{{ .phone }}">{{ .phone }}</a>
+            <br>
+            <a href="mailto:{{ .email }}">{{ .email }}</a>
+          </p>
+        </div>
+      </div>
+      {{ end }}
+      {{ with .Site.Params.footer.sitemap }}
+      <div class="col-lg-2 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">{{ .title }}</h5>
+          <ul class="site-footer-widget-links">
+            {{ range .link }}
+            <li><a href="{{ .url | absURL }}">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-lg-6">
+        
+      <a class="site-footer-widget-top">
+        <div style="display: hidden;">
+        {{ partial "modal.html" . }} </div>
+        <img src="{{ "images/40yrswhite.svg" | absURL }}" alt="back-to-top"  >
+        <img src="{{ "images/supportlocalwhite.svg" | absURL }}" alt="back-to-top"  >
+        <img src="{{ "images/iso.svg" | absURL }}" alt="back-to-top" data-toggle="modal" data-target="#exampleModal" >
+      </div>
+  </div>
+  <div class="text-center" style="margin-bottom: 0;"><p style="font-size: .6rem;">© Property of GICPL 2020</p></div>
+</footer>
+
+
+  <script src="js/script.js"></script>
+  <script src="js/vendor.js"></script>
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

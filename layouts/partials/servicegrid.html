@@ -1,0 +1,41 @@
+
+{{ with .Site.Data.service }}
+{{ if .enable }}
+<section class="servicegrid">
+  <div class="container  ">
+
+    <div class="row col-lg-12 text-center">  
+      
+      {{ range .serviceItem }}
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2  ">
+        <div class="servicegrid-item" >
+          <div class="servicegrid-item-content text-center">
+            <i class="{{ .icon }}" aria-hidden="true"></i>
+            <h4>{{ .title }}</h4>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2  ">
+        <img class="logobannerimg" src="{{ "images/gipcllogocircle.svg" | absURL }}" alt="logo"   />
+      </div>
+
+
+      {{ range .serviceItem }}
+      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2  ">
+        <div class="servicegrid-item" >
+          <div class="servicegrid-item-content text-center">
+            <i class="{{ .icon }}" aria-hidden="true"></i>
+            <h4>{{ .title }}</h4>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+
+
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

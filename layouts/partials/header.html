@@ -1,0 +1,72 @@
+
+
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg site-navigation"> 
+<!--
+     
+  <div class="tri"></div>
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}" >
+      <img src="{{ "images/logo.jpg" | absURL }}" alt="logo" />
+    </a>
+      
+    <div class="company"> 
+      <span>
+      <h5>
+      Gujarat Industrial Caterers PVT LTD
+      </h5>
+    </span>
+    </div> --> 
+      
+    
+    <button
+      class="navbar-toggler collapsed float-right"
+      type="button"
+      data-toggle="collapse"
+      data-target="#sitenavbar"
+    >
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    
+    <div class="collapse navbar-collapse" id="sitenavbar">
+      <ul class="navbar-nav ml-auto main-nav">
+        {{$menu := (.Site.Menus.nav)}} 
+        {{$len := (len $menu)}} 
+        {{ range $index, $element := $menu }} 
+          {{ if eq (add $index 1) $len }}
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              href="{{ .URL | absURL }}"
+            > <!-- btn btn-sm btn-primary btn-sm-rounded 
+              <span class="btn-area">
+                <span data-text="{{ .Name }}">
+                  {{ .Name }}
+                </span>
+              </span> --> 
+            </a>
+          </li> 
+          {{ else }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .URL | absURL }}"
+              >{{ .Name }}</a
+            >
+          </li>
+
+         
+
+          {{ end }} 
+        {{ end }}
+      </ul>
+    </div>
+
+    <!--
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+      <img src="{{ "images/40years.jpg" | absURL }}" alt="logo" />
+    </a> -->
+  </nav>
+  </div>
+

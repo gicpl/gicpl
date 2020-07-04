@@ -1,0 +1,41 @@
+{{ with .Site.Data.home }}
+  {{ if .enable }}
+  <section class="site-team">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 offset-1">
+          <div class="section-title">
+             
+            <p>
+              {{ .subtitle }}
+            </p>
+          </div>
+        </div>
+        <div class="col-10 offset-1">
+          <div class="section-title">
+            <h3>
+              Our vision
+            </h3>
+            <p>
+              {{ .vision }}
+            </p>
+          </div>
+        </div>
+        {{ range .members }}
+        <div class="col-lg-10 offset-1" >
+          <div class="site-team-member">
+            <div class="site-team-member-content">
+              <h3>{{ .name }}</h3>
+              <p>{{ .desc }}</p>
+          
+            </div>
+          </div>
+          </div>
+      
+
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

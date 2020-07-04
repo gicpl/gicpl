@@ -1,0 +1,65 @@
+{{ define "main" }}
+
+<section class="site-about-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 ">
+       <!----> <div class="site-about-wrapper">
+          {{ with .Params.image }}
+          <div class="site-about-post-thumb" >
+            <img src="{{ . | absURL }}" alt="post-thumb">
+          </div>
+          {{ end }} 
+          <div class="site-about-description">
+            <p> <b>
+              {{ .Description }}
+            </b>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ with .Site.Data.sisterco }}
+  {{ if .enable }}
+  <section class="site-sisterco" id="sisterco">
+    <div class="container">
+
+
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>
+              {{ .title }}
+            </h2>
+          </div>
+        </div>
+        {{ range .sistercoitem }}
+        <div class="col-lg-4 col-md-6">
+          <div class="site-sisterco-item">
+            <div class="site-sisterco-item-header">
+              <div class="thumb">
+                <img src="{{ .thumb | absURL }}" alt="user-thumb-one">
+              </div>
+              <div class="person">
+                <h5>{{ .name }}</h5>
+                <a href="{{ .url }}" target="_blank"><p>{{ .url }}</p> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
+
+{{ partial "clients.html" . }}
+ 
+{{ partial "call-to-action.html" . }}
+
+{{ end }}

@@ -1,0 +1,25 @@
+{{ with .Site.Params.footer.contactInfo }}
+<!--
+<img class="logobanner" src="{{ "images/giclogo1.svg" | absURL }}" alt="logo"   />
+-->
+<div class="topbar ">       
+    <div class="container ">
+      <div class="row topbar" >      
+        <div class="col-lg-6 topbar-content " style="padding-top: 5px;"> 
+            <span>
+              <h5>
+              Gujarat Industrial Caterers Pvt. Ltd. |   
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+              12345689
+              </h5>
+            </span>
+        </div>
+        <div class="col-lg-6 topbar-content " >
+            <p> Email: <b><a href="mailto:gujcat2014@gmail.com"> {{ .email }} </a></b> 
+            &nbsp; GSTIN: <b> {{ .gstin }} </b> 
+            </p>     
+        </div>
+      </div>
+    </div>     
+</div>
+{{ end }}
