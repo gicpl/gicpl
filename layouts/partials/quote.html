@@ -2,6 +2,8 @@
   {{ if .enable }}
   {{ "<!-- Site Hero Start -->" | safeHTML }}
 
+
+<div class="container">
 <ul class="site-hero-content-buttons quote">
     <li>
       <a href="{{ .primary_button_url | absURL }}" class="btn btn-primary">
@@ -14,6 +16,7 @@
     </li>
   
   </ul>
+</div>
 
   {{ "<!-- Site Hero End -->" | safeHTML }}
   {{ end }}
