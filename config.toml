@@ -1,4 +1,4 @@
-baseURL       = "http://localhost:1313/"
+baseURL       = "https://gicplbaroda.netlify.app/"
 languageCode  = "en-us"
 title         = "GIC | Gujarat Industrial Caterers"
 name         = "Gujarat Industrial Caterers PVT LTD"
