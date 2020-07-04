@@ -1,0 +1,126 @@
+baseURL       = "http://localhost:1313/"
+languageCode  = "en-us"
+title         = "GIC | Gujarat Industrial Caterers"
+name         = "Gujarat Industrial Caterers PVT LTD"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = "/"
+    weight  = 1
+
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+
+  [[menu.nav]]
+    name    = "Services"
+    url     = "services"
+    weight  = 3
+
+  [[menu.nav]]
+    name    = "Clients"
+    url     = "clients"
+    weight  = 4
+
+  [[menu.nav]]
+    name    = "Testimonials"
+    url     = "testimonials"
+    weight  = 5
+
+  [[menu.nav]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 6
+
+  [[menu.nav]]
+    name    = "Test"
+    url     = "contact"
+    weight  = 10
+
+
+
+# Site Params
+[params]
+  logo = "images/logo.jpg"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "StaticMania"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # Were using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/dough.jpg"
+    background_image1      = "images/backgrounds/cooking.jpg"
+    heading               = "FEEDING GUJARAT'S WORKFORCE "
+    heading1               = " HEALTHY MEALS EVERYDAY"
+    tagline               = "GIPCL"
+    primary_button        = "Request Quote"
+    primary_button_url    = "contact"
+    secondary_button      = "Contact Us"
+    secondary_button_url  = "contact"
+
+  [params.banner.bg]
+    enable                = true
+    [[params.banner.bg.slide]]
+    name = "Dribbble"
+    img  = "images/backgrounds/dough.jpg"
+    [[params.banner.bg.slide]]
+    name = "Cooking"
+    img  = "images/backgrounds/cooking.jpg"
+
+  [params.portfolio]
+    enable    = true
+    title     = "OUR RECENT WORKS"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cooking.jpg"
+    title               = "LET US COOK FOR YOU"
+    primary_button      = "Contact Us"
+    primary_button_url  = "contact"
+    secondary_button    = "Not Convinced"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "502 Eagle Apartments, Fatehgunj Main Road, Baroda- 390002 (Gujarat)."
+      phone   = "0265-2789418 / 2789481"
+      email   = " gujcat2014@gmail.com"
+      gstin   = "24AABCG5399N1Z2"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Company"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Services"
+          url  = "services"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+       
+      # Footer Service
+      [params.footer.service]
+        title       = "We are keen to promote the appreciation of the concept 'Healthy Food For Healthy Living' among people."
+        description = "A Study reveals increase in employee productivity with balanced and nutritional meal consumption...help us help you reach your optimal level with well fed,cared for and happy employees."
