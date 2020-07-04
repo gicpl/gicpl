@@ -477,14 +477,14 @@ textarea.form-control {
 
 @media (max-width: 991px) {
   .site-hero {
-    height: 60vh;
+    height: 50vh;
     padding: 10px 0;
   }
 }
 
 @media (max-width: 575px) {
   .site-hero {
-    height: 60vh;
+    height: 40vh;
     padding: 10px 0 0 0;
   }
 }
