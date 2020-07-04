@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 400 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-56,-109)">
+        <text id="Support" x="114.92px" y="192.36px" style="font-family:'Quicksand-Bold', 'Quicksand';font-weight:700;font-size:64px;fill:rgb(255,0,0);">SUPPOR<tspan x="367.016px " y="192.36px ">T</tspan></text>
+    </g>
+    <g transform="matrix(1,0,0,1,115,47.5)">
+        <text id="Support1" serif:id="Support" x="81px" y="171.64px" style="font-family:'Quicksand-Bold', 'Quicksand';font-weight:700;font-size:36px;fill:rgb(255,0,0);">BU<tspan x="129.6px " y="171.64px ">S</tspan>INESS</text>
+    </g>
+    <g transform="matrix(1,0,0,1,115,-42)">
+        <text id="Support2" serif:id="Support" x="81px" y="216.04px" style="font-family:'Quicksand-Bold', 'Quicksand';font-weight:700;font-size:96px;fill:white;">CAL</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-32.75,-42)">
+        <text id="Support3" serif:id="Support" x="81px" y="216.04px" style="font-family:'Quicksand-Bold', 'Quicksand';font-weight:700;font-size:96px;fill:white;">L</text>
+    </g>
+    <g id="pin" transform="matrix(1,0,0,1,-250,0)">
+        <use xlink:href="#_Image1" x="351" y="95" width="92px" height="130px"/>
+    </g>
+    <defs>
+        <image id="_Image1" width="92px" height="130px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAACCCAYAAADL268HAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEhklEQVR4nO2d0ZKsIAxE49b+/y97n6hyvDtKoNPpiP24tUI4tAEFHLNXVG3ZAZy17/uOLG/bNqk2pgeDBnyn7A5Iq5wN+qws8NRKsyF/ExM+pSJV0GcxwIdWUAX0WZHgwwquCrspCjq80Oqgz0KDhxYWAdvbYIUYLstCFIJsJNpRarFNF4BoEGtaphDr1MWzDch6+MiMe/jC0aCzH62PmgE/2o6hi54A+yhme9wXjASnCvosRtvCp1xVYDdFt7H7H1eA3RTZ1h9/OH2VV4VtJvAuxdPjlUH/JXTbb/9hZdhNSAawlPJU2GhdAn/am79Recx0x+xrQUqpZDfrimUTWlD5xuR3Nogo2L2Qv10TAX/btm36Pcxff+wtFP4qdQByj9DwZ/iEzMNHFAU7umyv/usBtrvZMFBuH+U05PCqsLPqPCotpWQ2HFH3qOk+gLPm3dkuY8ZwZup2+Gw6gbjLbEPk4tlYphYgGIPlaAN74UaX/2edTm4uh7Pfl3idjHK+R14mtEHT475ZcN7rmWMKBbgXNqpeReg/Zn15iLSVF//+g5Bietg0xjKP9pFg2Hn9SuHAFebcvWLEKuFwym0v4vIu4O/y2b1St0k09dyiTOf11BWdViRSykp6gZP1AicrFbjKzIGp1+FkpQKv9FCE0utwsl7gZL3AyQoFrvBk560reubUBfzdRXuvXkYSKYXhcpUZUTjwSg83jFglHG62zmbOHzPfmlykIsBQ0pVjTZji8KzV86zdAleipRQv9Bnw3uuZ44wLOHt66AU321Ej8jL56FnG/hTUZk50WaPyMnOnFMChIsiu1yqwz/oAzlqdV5ibs2KAHDmBfDsqETrkLhtksNwSW/bdJXNOM3p2gQT9iHOaq2zmnD5rr3T0+6goyLNcps/a7/u+R0A/AlP5uAFClwFmu1xNCB6QHL7CihCqjZfAV3EuUnfM+s4/Lp5akO2HTgtXSC2zek9A3Ah9d3c7vLfAJ7k8oi0hT5pPgt4jTwaQPmufqaiJQti7lNVc3iv691IqKHIaHPrNq4ouj445/uh3Qeg9gnzzilGhshhP1FMOf3JqiZLMik+2WO+LpoE/weXM2KgOV4beI8S4BQFeeQBlv3qm/yRBdZfPKmXQVIGesbACBV4ptWR1OtzhT0staBMtOQ/PXKMN+2mwnv+r4nKk0h1OP8aSvAMhDLjiAKpwR8V+3KBoaok0S3pKaYqGnp1KmuLP2gumlkzJONwszuUq7jZjHf1OdLna+MA7+i0+gLJMIZVSmlDQlVJJExX4O4AmnYmh/GaQoLvNRFNK02hqURsoj0oBrpJaMuKQdriZ362qqaQpDbiKy9lKbzTSkeruNiuQUpruYCoPlEelA2e7LTuVpaeUppl0UCGVNKU7fDWl9/hRI06t5G6zog5vkKsMlEdJAY9yoYq7zcRSShPSuUqwzcQcvoKkev8ohMvV3G0m7HBFWAjJAp+VaodJBnXUSGpRhW32YIerStYJR3lcruxusyIOV4foUQngvarQMfIBHnWVWirANivm8CpQXwnpHyU2XyK0L9QzAAAAAElFTkSuQmCC"/>
+    </defs>
+</svg>
