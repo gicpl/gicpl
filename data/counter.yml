@@ -1,0 +1,26 @@
+enable : true
+heading : "THE PROOF IS IN THE DHOKLA!"
+counter_item: 
+  - title: "Serviced Clients"
+    number: "100"
+
+  - title: "Workforce Served"
+    number: "50,000"
+
+  - title: "Meals Catered"
+    number: "7.36cr"
+
+  - title: "Meals/day Served"
+    number: "6800"    
+
+  - title: "Central Kitchens"
+    number: "2"
+
+  - title: "Fleet of Vehicles"
+    number: "10"  
+  
+  - title: "Avg. Client Engagement"
+    number: " 10yrs"
+
+  - title: "years in Business"
+    number: "40yrs"    

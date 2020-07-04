@@ -1,0 +1,30 @@
+enable  : true
+title   : Our Services
+subtitle: Having served in Catering, Housekeeping, Hospitality & HealthCare industry for more than 4 decades, we have a bouquet of services to offer. Our dedicated professionals & staff provide quality and value-focused service.
+serviceItem :
+
+  - icon  : fa fa-industry
+    img   : /images/backgrounds/thali.jpg
+    title : Industrial Catering
+    description : >
+      Our Industrial Catering Sector involves the provision of food and beverage services on a large scale to Corporate bodies and Industries in their cafeterias, guesthouses, and other specialized locations. We deploy highly efficient and trained staff teams who manage every aspect of your Food Service and put in place sustainable effective Operational, Control, and Managerial Systems.
+
+  - icon  : fa fa-graduation-cap
+    title : Institutional Catering
+    img   : /images/backgrounds/cooking.jpg
+    description : >
+      We provide a very unique tailored Catering Services to Educational Institutions like Schools, Colleges to the higher and further Education sectors & Government organizations. We deliver with great care quality, variety, and freshness day in and day out. Food is an important part of everyone's life, something to look forward to and relish. Our team of dedicated chefs develops healthy food options that take into account the dietary and nutritional balance, likes, and expectations of children and youth from different walks of life.
+ 
+  - icon  : fa fa-hospital-o
+    title : Health-Care Catering
+    img   : /images/backgrounds/thali.jpg
+    description : >
+      The unique conditions of a hospital or nursing home environment make extra demands on this type of commercial operation. The food must be prepared in a totally hygienic environment and prepared to a very high standard, it is also to be synchronized to the special dietary needs of the individual patients. Our Hospital Services have been developed to particularly meet the requirements for Multi-Specialty Hospitals, Specialty Hospitals, and Nursing homes where quality service for healing and rehabilitation of the highest standards is the paramount objective.
+
+  - icon  : fa fa-leaf
+    title : Housekeeping services
+    img   : /images/backgrounds/thali.jpg
+    description : >
+      We follow the systematic processes of professional Housekeeping & Maintenance Services. Our trained staff is equipped to provide high-quality Housekeeping Services with industry-specific materials and equipment. Our staff is trained regularly to consistently maintain and deliver high standards of hygiene and upkeep.
+
+   

@@ -1,0 +1,24 @@
+enable  : true
+title   : "Testimonials"
+subtitle: "What our clients say about us."
+testimonial_item :
+  - thumb : "images/testimonial/user.svg"
+    name  : "J. A. Mankodi, "
+    company_position: "GM, Plant Personel and Administration Dept., IPCL, Vadodara"
+    quote : > 
+            "GICPL has been instrumental in advising IPCL set up a modern kitchen and during their tenure served 10,000 people,enormous task in terms of quantity,quality and sheer magnitude and conducted it with extreme efficiency,coordination and high level of administration." 
+
+  - thumb : "images/testimonial/user.svg"
+    name  : "Sanjeev Dharwadhan"
+    company_position: "Manager Employee Relations, Hoechst, Ankleshwar"
+    quote : > 
+            "Healthy good food, great staff presentation and professionalism, well organised team, A very cordial and exemplary organisation to work with for your contractual catering needs with a "just do it" attitude." 
+            
+  - thumb : "images/testimonial/user.svg"
+    name  : "S. K. Raijada"
+    company_position: "D. Y. General Manager(HR), Bell Ceramics Limited, Vadodara"
+    quote : > 
+            "They have serviced our facility for the past 9 yrs. serving approximately 500 employees and contract workmen. The performance of the firm is quite good and they are some of the few Contractors who have successfully provided good quality food consistently." 
+          
+
+  

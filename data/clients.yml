@@ -1,0 +1,5 @@
+enable        : true
+title         : "Our Clients"
+subtitle      : "Being pioneers, we serve more than 85 different establishments including Hospitals, Businesses, Industries and Educational institutes to whom we offer various Catering and Housekeeping packages."
+client_logos  : 
+    ["images/clients/adani.png", "images/clients/bellceramics.png", "images/clients/birla.png", "images/clients/coke.png", "images/clients/gcptcl.png", "images/clients/glaxo.png", "images/clients/heubach.png", "images/clients/kuster.png", "images/clients/lennox.png", "images/clients/lt.png", "images/clients/mathura-refinery.png", "images/clients/nirma.png", "images/clients/ongc.png", "images/clients/petronet.png", "images/clients/reliance.png", "images/clients/sanofi.png", "images/clients/shalby.png", "images/clients/siemens.png", "images/clients/sterling.png", "images/clients/suzlon.png", "images/clients/tcs.png", "images/clients/torrent.png", "images/clients/unioncarbide.png", "images/clients/dav.png", "images/clients/narayana.png"]
