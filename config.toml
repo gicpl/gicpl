@@ -92,7 +92,7 @@ summarylength = 25
 
   [params.call_to_action]
     enable              = true
-    background_image    = "images/backgrounds/cooking.jpg"
+    background_image    = "images/backgrounds/stove.jpg"
     title               = "LET US COOK FOR YOU"
     primary_button      = "Contact Us"
     primary_button_url  = "contact"
