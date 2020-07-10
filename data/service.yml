@@ -1,30 +1,28 @@
 enable  : true
 title   : Our Services
-subtitle: Having served in Catering, Housekeeping, Hospitality & HealthCare industry for more than 4 decades, we have a bouquet of services to offer. Our dedicated professionals & staff provide quality and value-focused service.
+subtitle: Having served in the catering, housekeeping, hospitality & healthcare industry for over four decades, we have a wide range of services to offer. Our dedicated and professional staff provide quality and value-focused service.
 serviceItem :
 
   - icon  : fa fa-industry
     img   : /images/backgrounds/thali.jpg
     title : Industrial Catering
     description : >
-      Our Industrial Catering Sector involves the provision of food and beverage services on a large scale to Corporate bodies and Industries in their cafeterias, guesthouses, and other specialized locations. We deploy highly efficient and trained staff teams who manage every aspect of your Food Service and put in place sustainable effective Operational, Control, and Managerial Systems.
+      Our industrial catering services involve meeting the food, beverage and housekeeping needs of organisations of all sizes. These services are provided at inhouse canteens, cafeterias, guesthouses and other specialised locations. We deploy highly trained and efficient teams who manage every aspect of your food service. We closely manage every element of operations including purchasing quality ingredients, employing the appropriate workforce, using technology driven systems, safeguarding hygiene standards and importantly nurturing and maintaining a close working relationship with our clients.
 
   - icon  : fa fa-graduation-cap
     title : Institutional Catering
     img   : /images/backgrounds/cooking.jpg
     description : >
-      We provide a very unique tailored Catering Services to Educational Institutions like Schools, Colleges to the higher and further Education sectors & Government organizations. We deliver with great care quality, variety, and freshness day in and day out. Food is an important part of everyone's life, something to look forward to and relish. Our team of dedicated chefs develops healthy food options that take into account the dietary and nutritional balance, likes, and expectations of children and youth from different walks of life.
+      We provide a very uniquely tailored catering service to educational institutions such as schools, universities, adult and higher education institutes and government colleges. We deeply understand that a healthy and varied food habit is fostered during these important years of growth and development. It is therefore critical that we provide food and drink that offers the best source of energy and nutrients to fulfill these needs. Our team of dedicated chefs take great care while developing healthy food options. Importantly, we take into account dietary and nutritional balance, freshness, variety and choice whilst always keeping in mind the preferences of children and youth from different walks of life.
  
   - icon  : fa fa-hospital-o
     title : Health-Care Catering
     img   : /images/backgrounds/thali.jpg
     description : >
-      The unique conditions of a hospital or nursing home environment make extra demands on this type of commercial operation. The food must be prepared in a totally hygienic environment and prepared to a very high standard, it is also to be synchronized to the special dietary needs of the individual patients. Our Hospital Services have been developed to particularly meet the requirements for Multi-Specialty Hospitals, Specialty Hospitals, and Nursing homes where quality service for healing and rehabilitation of the highest standards is the paramount objective.
+      Our healthcare services have been specially developed to meet the requirements of multi-specialty hospitals, specialty hospitals and nursing homes. The unique conditions of a hospital or nursing home environment make special demands of our services and expertise. The provision of food of the highest quality that helps heal and rehabilitate is of paramount importance. Working closely with healthcare professionals we ensure the provision of hygienically prepared meals tailored to the special dietary needs of the individual patients. 
 
   - icon  : fa fa-leaf
     title : Housekeeping services
     img   : /images/backgrounds/thali.jpg
     description : >
-      We follow the systematic processes of professional Housekeeping & Maintenance Services. Our trained staff is equipped to provide high-quality Housekeeping Services with industry-specific materials and equipment. Our staff is trained regularly to consistently maintain and deliver high standards of hygiene and upkeep.
-
-   
+      We follow the systematic processes of professional housekeeping & maintenance services. Our trained staff are fully equipped to provide high-quality housekeeping services with industry-specific materials and equipment. Our staff are regularly trained to consistently deliver and maintain high standards of hygiene and upkeep.
