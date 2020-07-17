@@ -3,12 +3,15 @@ title   : "FAMILY OF COMPANIES"
 sistercoitem :
   - thumb : "images/sisterco/gipcllogocircle.svg"
     name  : "GICPL"
-    url: "www.gicplbaroda.in"
+    link:  "https://www.gicplbaroda.in/"
+    link1:  "www.gicplbaroda.in"
     
   - thumb : "images/sisterco/barodaresidency.png"
     name  : "THE BARODA RESIDENCY"
-    url: "www.barodaresidency.in"
-                
+    link: "http://www.barodaresidency.in/"
+    link1: "www.barodaresidency.in"
+
   - thumb : "images/sisterco/goodwil.png"
     name  : "GOODWILL HOSPITALITY"
-    url: "www.goodwillhospitality.in"
+    link: "http://www.goodwillhospitality.in/"
+    link1: "www.goodwillhospitality.in"
