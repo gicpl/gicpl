@@ -4,14 +4,14 @@ sistercoitem :
   - thumb : "images/sisterco/gipcllogocircle.svg"
     name  : "GICPL"
     link:  "https://www.gicplbaroda.in/"
-    link1:  "www.gicplbaroda.in"
+    link1:  "gicplbaroda.in"
     
   - thumb : "images/sisterco/barodaresidency.png"
     name  : "THE BARODA RESIDENCY"
     link: "http://www.barodaresidency.in/"
-    link1: "www.barodaresidency.in"
+    link1: "barodaresidency.in"
 
   - thumb : "images/sisterco/goodwil.png"
     name  : "GOODWILL HOSPITALITY"
-    link: "http://www.goodwillhospitality.in/"
-    link1: "www.goodwillhospitality.in"
+    link: "http://goodwillhospitalityservices.in/"
+    link1: "goodwillhospitalityservices.in/"
