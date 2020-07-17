@@ -1428,9 +1428,9 @@ textarea.form-control {
   color: #646569;
 }
 
- 
-
-
+.site-sisterco-item-header .person a {
+   text-decoration: none;  
+}
 
 .site-cta {
   padding: 600px 0 100px 0;
