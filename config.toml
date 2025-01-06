@@ -105,7 +105,8 @@ summarylength = 25
       title   = "Contact Info"
       address = "502 Eagle Apartments, Fatehgunj Main Road, Baroda- 390002 (Gujarat)."
       phone   = "0265-2789418 / 2789481"
-      email   = " gujcat2014@gmail.com"
+      whatsapp   = "+919632048866"
+      email   = " gujcat2020@gmail.com"
       gstin   = "24AABCG5399N1Z2"
       # Footer Sitemap
       [params.footer.sitemap]
