@@ -6,7 +6,7 @@ address1       : "502 Eagle Apartments,"
 address2       : "Fatehgunj Main Road,"
 address3       : "Baroda- 390002 (Gujarat)."
 phone         : "0265-2789418 / 2789481"
-email         : "gujcat2014@gmail.com"
+email         : "gujcat2020@gmail.com"
 form_heading  : "TELL US ABOUT YOUR PROJECT"
 ---
 
